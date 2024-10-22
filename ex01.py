@@ -1,6 +1,9 @@
-a = 1
-b = 2
+#1 QUESTÃO. Dada a string ‘s,pa,m’, obtenha de duas formas diferentes os dois caracteres do meio (‘pa’) :
 
-soma = a + b
+a = 's,pa,m'
 
-print(soma)
+print(a[2:4])
+print(a[-4:-2])
+
+
+
